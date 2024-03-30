@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+:root{
+    --negro:#0D0D0D;
+    --grisoscuro:#262626;
+    --gris:#A6A6A6;
+    --grisclaro:#D9D9D9;
+    --blanco:#F2F2F2;
+}
+
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: var(--blanco);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.icono{
+    height: 30px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: var(--grisoscuro);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: var(--gris);
+    color: var(--negro);
+} 
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frase{
+    font-size: 40px;
+    color: var(--blanco);
+    font-family: Georgia, 'Times New Roman', Times, serif
+   
+   
+    
+}
+.header {
+    height: 60vh !important;
+    background: url(Fotos/Fotoarriba.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 200%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.p{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: white;
+    width: 40%;
+    text-align: center;
+    display: inline-flex;
+}
+.telefono{
+    color: var(--blanco);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.Bienvenidos{
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    width: 40%;
+
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid var(--grisoscuro);
+    color: var(--grisoscuro);
+    text-decoration: none;
+    background: var(--gris);
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content-about{
+    height: 40vh !important;
+}
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 20px;
+    background: var(--grisoscuro);
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 15rem;
+    width: 27rem;
+    background: var(--negro);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .1rem 3rem ;
+    margin: 1rem;
+
+    }
+    .fotosportafolio{
+        height: 90%;
+        border-radius: 5%;
+        ;
+    }
+    .fotosportafolio:hover{
+        transform: scale(2.2);
+    }
+
+
+    .box-container .boxi{
+        height: 3rem ;
+        width: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+        margin: 2rem;
+    }
+
+    .box-container .box h3
+{font-size: 180%;
+    color: var(--blanco);
+    margin: 5%;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+    margin: 10%;
+}
+
+    
+    .content-price{
+        background: var(--grisoscuro);
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+        height: 40vh !important;
+        ;
+    }
+
+    .content-price .contain .title
+    { padding: 3%;
+    }
+
+    .content-about{
+    
+        background: url(Fotos/ntvg.jpg) no-repeat center;
+    }
+    .content-about .title{
+        padding: 3%;
+    }
+
+    .content-contact{
+        background: var(--negro);
+        padding: 40px;
+    }
+
+    @media (max-width:760px) {
+
+        .title{
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+        .sau{
+            height: 120vh;
+        }
+
+        .navbar{
+            display: none;
+        }
+    }
+
+    .formulario{
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: var(--gris);
+        width: 180px center;
+        height: 200px center;
+        margin: 10px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px;
+
+    }
+    
+    .mapa
+{
+    width: 30%;
+}
+
+.tamaño{
+    width: 200px;
+    border-radius: 100%;
+    justify-content: center ;
+    display: inline-flexbox;
+    padding: 40px;
+}
+    
+.h3 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.recomendaciones{
+    font-size:40px;
+    padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: var(--grisoscuro);
+}
